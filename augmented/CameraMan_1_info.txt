@@ -1,0 +1,3 @@
+Augmentation Info 
+name:second config, sequential, flip + affine
+\Sequential(name=second config, sequential, flip + affine, random_order=False, children=[Fliplr(name=Flipper, parameters=[Deterministic(int 1)], deterministic=False), Affine(name=affine 1, parameters=[(Deterministic(float 0.80000000), Deterministic(float 0.90000000)), (Deterministic(float 0.20000000), Deterministic(float 0.10000000)), Deterministic(int 45), Deterministic(float 0.00000000), Deterministic(int 1), Deterministic(int 0), Deterministic(constant), auto, False], deterministic=False)], deterministic=False)

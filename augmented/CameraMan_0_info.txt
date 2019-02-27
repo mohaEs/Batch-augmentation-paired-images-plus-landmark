@@ -1,0 +1,3 @@
+Augmentation Info 
+name:first config, just flip
+\Sequential(name=first config, just flip, random_order=False, children=[Fliplr(name=Flipper, parameters=[Deterministic(int 1)], deterministic=False)], deterministic=False)
