@@ -1,5 +1,6 @@
 # Batch-augmentation-paired-images-plus-landmarks
 
+Use this code for augmenting the paired images (e.g. images and their corresponding segmentation masks) and also landmarks.
 
 # Image and keypoint augmentor
 based on skimage and imgaug https://github.com/aleju/imgaug
