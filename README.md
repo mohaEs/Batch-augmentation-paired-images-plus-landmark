@@ -11,7 +11,7 @@ based on skimage and imgaug https://github.com/aleju/imgaug
   - PrMain_batch_images.py: use it for batch processing.
  
 # Easy for batch processing!
-  - Set the source folders. input images and corresponding folders contain paired images and landmarks.
+  - Set the source folders. input images, corresponding folders contain paired images, landmarks.
   - Set the destination folder.
   - It is assumed that, for each image in source folder, there is a csv file with same file name in landmark folder, consists the x, y locations of landmarks. see the example file.
   - It is assumed that, for each image in source folder, there is an paired image with same file name in the paired folder. see the example file.
