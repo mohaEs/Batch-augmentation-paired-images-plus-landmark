@@ -77,12 +77,15 @@ for filename in glob.glob(SourcePath+'/*.png'): #assuming png
     try:
         images=np.zeros(shape=[1,Image.shape[0],Image.shape[1],Image.shape[2]], dtype='uint8')
         images[0,:,:,:]=Image
-        images_seg=np.zeros(shape=[1,Image.shape[0],Image.shape[1],Image.shape[2]], dtype='uint8')
-        images_seg[0,:,:,:]=Image_seg
     except:
         images=np.zeros(shape=[1,Image.shape[0],Image.shape[1]], dtype='uint8')
         images[0,:,:]=Image
-        images_seg=np.zeros(shape=[1,Image.shape[0],Image.shape[1]], dtype='uint8')
+        
+    try:
+        images_seg=np.zeros(shape=[1,Image_seg.shape[0],Image_seg.shape[1],Image_seg.shape[2]], dtype='uint8')
+        images_seg[0,:,:,:]=Image_seg
+    except:
+        images_seg=np.zeros(shape=[1,Image_seg.shape[0],Image_seg.shape[1]], dtype='uint8')
         images_seg[0,:,:]=Image_seg
         
     # Generate random keypoints.
